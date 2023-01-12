@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color: black;
+    color: red;
+}
+
+header {
+    font-family: 'Bungee', cursiva;;
+    font-weight: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: red;
+    text-decoration:none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section .container,
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
+    align-items: flex-start;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: red;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.Supers {
+    margin-right: 32px;
+}
+
+.container img {
+    height: 450px;
+}
+
+.brand-list img {
+    height: 250px;
+}
+
+section {
+    display: block;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+body {
+    background-color: black;
+}
+
+#Suaopiniao .container {
+    display: block;
+}
+
+.contact-nethards {
+    display: flex;
+    justify-content: space-between;    
+}
+
+form input,
+textarea,
+button  {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: black;
+    color: red;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(177, 63, 42);
+}
+
+input:focus, textarea:focus{
+    outline-color: rgb(224, 28, 28);
+}
+
+
+
+
